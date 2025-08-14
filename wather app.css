@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 0px 30px white;
+
+}
+
+h1{
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input [type="text"]{
+  width: 70px;
+  padding: 10px;
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+}
+
+#city-input{
+  background-color: #3b3b3b;
+  color: white;
+  width: 70%;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+button{
+  width: 25%;
+  padding: 10px;
+  background-color: #6200EA;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color: #3700b3;
+}
+
+#weather-info{
+  margin-top: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+#error-message{
+  color: #FF5722;
+  margin-top: 20px;
+}
